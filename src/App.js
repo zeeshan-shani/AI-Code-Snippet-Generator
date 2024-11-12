@@ -25,7 +25,7 @@ const CodeGenerator = () => {
         },
         {
           headers: {
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer ${process.env.SECRET_KEY}`,
             'Content-Type': 'application/json',
           },
         }
